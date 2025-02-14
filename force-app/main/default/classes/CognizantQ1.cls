@@ -1,5 +1,6 @@
 public class CognizantQ1 {
     public static void handlerMethod(list<OpportunityLineItem> oppLineItems){
+        
         set<Id> oppIds = new set<Id>();
         for(OpportunityLineItem oppLineItem : oppLineItems){
 	    oppIds.add(oppLineItem.OpportunityId);          

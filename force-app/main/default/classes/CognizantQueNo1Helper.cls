@@ -1,5 +1,6 @@
 public class CognizantQueNo1Helper {
-    public static void SetTotalNumberOfOppProducts(set<Id> accIds){
+     public static void SetTotalNumberOfOppProducts(set<Id> accIds){
+        
         list<Account> accToUpdate = new list<Account>();
         map<Id, Integer> oppToTotalOppProducts = new map<Id, Integer>();
         map<Id, List<Opportunity>> accOppMap = new map<Id, List<Opportunity>>();
